@@ -15,9 +15,9 @@ const createAboutUsTab = () => {
     `
     bodyDiv.appendChild(textBody);
     aboutUsDiv.appendChild(bodyDiv);
-    aboutUsDiv.classList.add('tab');
+    aboutUsDiv.classList.add('tab', 'main-window');
 
-    createHeadingTab('Our Mission to Serve', 'content');
+    createHeadingTab('Our Mission to Serve', 'about', 'content');
     document.getElementById('content').appendChild(aboutUsDiv);
 }
 

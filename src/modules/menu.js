@@ -56,9 +56,9 @@ const createMenuTab = () => {
     menuDiv.appendChild(burgerDiv);
     menuDiv.appendChild(pizzaDiv);
     menuDiv.appendChild(drinkDiv);
-    menuDiv.classList.add('tab');
+    menuDiv.classList.add('tab', 'main-window');
 
-    createHeadingTab('Our Menu', 'content');
+    createHeadingTab('Our Menu', 'menu', 'content');
     document.getElementById('content').appendChild(menuDiv);
 }
 

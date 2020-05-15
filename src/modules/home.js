@@ -11,7 +11,7 @@ const createHomeTab = () => {
     heroDiv.appendChild(title);
     homeDiv.appendChild(heroDiv);
     
-    homeDiv.classList.add('tab');
+    homeDiv.classList.add('tab', 'main-window');
 
     document.getElementById('content').appendChild(homeDiv);
 }

@@ -50,8 +50,9 @@ const createReservationTab = () => {
     formDiv.appendChild(submitDiv);
 
     reservationDiv.appendChild(formDiv);
-    reservationDiv.classList.add('tab');
-    createHeadingTab('Make a Reservation', 'content');
+    reservationDiv.classList.add('tab', 'main-window');
+
+    createHeadingTab('Make a Reservation', 'res', 'content');
     document.getElementById('content').appendChild(reservationDiv);
 }
 

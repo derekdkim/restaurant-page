@@ -13,6 +13,12 @@ const createNavBar = () => {
     navBarLocation.textContent = 'Find Us';
     navBarList.appendChild(navBarLocation);
 
+    const navBarHome = document.createElement('li');
+    navBarHome.id = 'home-nav';
+    navBarHome.textContent = 'Real Place';
+    navBarHome.classList.add('title');
+    navBarList.appendChild(navBarHome);
+
     const navBarAboutUs = document.createElement('li');
     navBarAboutUs.id = 'about-us-nav';
     navBarAboutUs.textContent = 'Our Story';
@@ -24,6 +30,7 @@ const createNavBar = () => {
     navBarList.appendChild(navBarRes);
 
     navBarContainer.appendChild(navBarList);
+    navBarContainer.classList.add('nav');
     document.getElementById('content').appendChild(navBarContainer);
 }
 

@@ -5,12 +5,11 @@ import { createMenuTab } from './modules/menu.js';
 import { createAboutUsTab } from './modules/about-us.js';
 import { createReservationTab } from './modules/reservation.js';
 import { removeTab } from './modules/remove.js';
+import { createFooterTab } from './modules/footer.js';
 
 createNavBar();
 createHomeTab();
-createLocationTab();
-createMenuTab();
-createAboutUsTab();
+createFooterTab();
 
 
 

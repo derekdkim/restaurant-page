@@ -21,9 +21,9 @@ const createLocationTab = () => {
 
     locationDiv.appendChild(infoContainer);
     locationDiv.appendChild(hoursContainer);
-    locationDiv.classList.add('tab');
+    locationDiv.classList.add('tab', 'main-window');
 
-    createHeadingTab('Come Visit Us!', 'content');
+    createHeadingTab('Come Visit Us!', 'location', 'content');
     document.getElementById('content').appendChild(locationDiv);
 }
 
