@@ -5,15 +5,15 @@
 
     display: flex;
     justify-content: center;
-    background-color: #1d1e22;
+    background: rgba(0, 0, 0, 0.3);
     background-size: 100% 90vh;
-    opacity: 0.3;
 }
 
 .heading h1 {
     color: #d4d4dc;
     margin-top: 20vh;
     font-size: 36px;
+    opacity: 1;
 }
 
 #title {
